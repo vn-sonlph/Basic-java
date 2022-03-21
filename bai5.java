@@ -10,7 +10,7 @@ public class bai5 {
             System.out.println("False");
         }
     }
-    public static void main(String []ars){
+    public static void main(String[] ars){
         Scanner sc = new Scanner(System.in);
         String s1 = "";
         String s2 = "";

@@ -12,7 +12,7 @@ public class bai2 {
             }
         return S;
     }
-    public static void main(String []args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         float x;
         System.out.println("Input x: ");
