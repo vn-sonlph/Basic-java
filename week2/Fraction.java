@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
 public class Fraction {
-    float tu;
-    float mau;
+    private int tu;
+    private int mau;
+    public Fraction(){
+    
+    }
     public void createFraction(){
         Scanner sc = new Scanner(System.in);
-        this.tu = sc.nextFloat();
-        this.mau = sc.nextFloat();
+        this.tu = sc.nextInt();
+        this.mau = sc.nextInt();
     }
     public void printFraction(){
         System.out.println("Phan so: " + this.tu +"/" + this.mau);

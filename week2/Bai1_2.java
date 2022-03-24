@@ -12,9 +12,9 @@ public class Bai1_2 {
         Fraction sub = b.subFraction(b);
         Fraction mul = a.mulFraction(b);
         Fraction div = b.divFraction(b);
-        System.out.println("A + B: " + add);
-        System.out.println("A - B: " + sub);
-        System.out.println("A * B: " + mul);
-        System.out.println("A / B: " + div);
+        add.printFraction();
+        sub.printFraction();
+        mul.printFraction();
+        div.printFraction();
     }
 }
